@@ -22,3 +22,20 @@ static void Main2() {
 		 
 	}
 }
+
+int[] myArray = {1,2,2,4,5,6,7,8,8,8};
+static void Main() {
+  			int count = 0;
+  for(int i = 0; i< myArray.Lenght; i++){
+  	foreach(var j in myArray){
+		if(j == myArray[i+1]){
+		  count +=1;
+			if(j == myArray[i+count]){	
+			  	  count +=1;
+			}
+		}
+	}
+  
+  }
+
+}
